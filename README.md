@@ -54,4 +54,32 @@ Max: 19
 Sum: 57
 Mean: 11.40
 ```
+
+## C Student Score Analyzer
+
+This project includes a C command-line utility for reading student scores from a CSV file and printing summary statistics.
+
+### Build
+
+```bash
+gcc c/student_score_analyzer.c -o student_score_analyzer
+```
+
+### Usage
+
+```bash
+./student_score_analyzer examples/student_scores.csv
+```
+
+Expected output:
+
+```text
+Student Count: 8
+Minimum Score: 58
+Maximum Score: 95
+Average Score: 81.75
+Passing Count: 7
+Failing Count: 1
+Top Student: Hannah (95)
+```
 ```
