@@ -28,3 +28,30 @@ This project includes a simple R helper function for calculating moving averages
 source("R/moving_average.R")
 moving_average(c(1, 2, 3, 4, 5), 3)
 ```
+
+## C Integer File Statistics
+
+This project includes a small C command-line utility for reading integers from a text file and printing basic statistics.
+
+### Build
+
+```bash
+gcc c/integer_file_stats.c -o integer_file_stats
+```
+
+### Usage
+
+```bash
+./integer_file_stats examples/integers.txt
+```
+
+Expected output:
+
+```text
+Count: 5
+Min: 4
+Max: 19
+Sum: 57
+Mean: 11.40
+```
+```
