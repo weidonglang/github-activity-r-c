@@ -1,0 +1,9 @@
+sku,product,category,stock,reorder_point,unit_cost,monthly_sales
+A100,Keyboard,Electronics,12,10,45.00,30
+A101,Mouse,Electronics,4,12,25.50,40
+A102,Monitor,Electronics,3,5,180.00,8
+B200,Notebook,Stationery,80,50,3.25,120
+B201,Pen Set,Stationery,15,30,6.50,75
+C300,Desk Chair,Office,2,4,180.00,5
+C301,Desk Lamp,Office,0,6,39.99,12
+C302,File Cabinet,Office,7,5,120.00,3
