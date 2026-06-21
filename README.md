@@ -82,4 +82,31 @@ Passing Count: 7
 Failing Count: 1
 Top Student: Hannah (95)
 ```
+
+## C Sales CSV Report Analyzer
+
+This project includes a C command-line utility for reading sales records from a CSV file and printing summary statistics.
+
+### Build
+
+```bash
+gcc c/sales_report.c -o sales_report
+```
+
+### Usage
+
+```bash
+./sales_report examples/sales.csv
+```
+
+Expected output:
+
+```text
+Order Count: 8
+Total Quantity: 31
+Total Revenue: 726.00
+Average Order Revenue: 90.75
+Top Product: Laptop Stand (275.00)
+Top Category: Accessories (463.50)
+```
 ```
