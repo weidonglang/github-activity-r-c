@@ -109,4 +109,26 @@ Average Order Revenue: 90.75
 Top Product: Laptop Stand (275.00)
 Top Category: Accessories (463.50)
 ```
+
+## R Sales CSV Summary Analyzer
+
+This project includes an R utility for reading sales records from a CSV file and printing summary statistics.
+
+### Usage
+
+```r
+source("R/sales_summary.R")
+result <- analyze_sales_csv("examples/r_sales.csv")
+print_sales_summary(result)
+```
+
+Expected output:
+
+```text
+Order Count: 8
+Total Quantity: 28
+Total Revenue: 638.48
+Average Order Revenue: 79.81
+Top Product: Desk Chair (180.00)
+Top Category: Electronics (313.50)
 ```
