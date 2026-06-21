@@ -132,3 +132,28 @@ Average Order Revenue: 79.81
 Top Product: Desk Chair (180.00)
 Top Category: Electronics (313.50)
 ```
+
+## R Inventory Reorder Analyzer
+
+This project includes an R utility for reading inventory records from a CSV file and printing reorder recommendations.
+
+### Usage
+
+```r
+source("R/inventory_reorder.R")
+result <- analyze_inventory_csv("examples/inventory.csv")
+print_inventory_summary(result)
+```
+
+Expected output:
+
+```text
+Item Count: 8
+Total Stock: 123
+Total Inventory Value: 2739.50
+Low Stock Items: 4
+Out of Stock Items: 1
+Total Reorder Quantity: 33
+Top Reorder Item: Pen Set (15)
+Top Inventory Category: Office (1200.00)
+```
